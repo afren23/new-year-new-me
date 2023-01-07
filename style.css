@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif ;
+}
+
+/* Header Section  */
+
+.container {
+    position: relative;
+    text-align: right;
+    color: white;
+}
+.banner-content {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.container .btn-primary {
+    position: absolute;
+    top: 71% ;
+    left: 80%;
+}
+.banner-title {
+    width: 525px;
+    height: 220px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: aliceblue;
+}
+.banner-description {
+    font-size: 20px;
+    opacity: 80%;
+    position: absolute;
+    top: 78%;
+}
+
+.btn-primary {
+    color: #005FAC;
+    font-weight: 700;
+    font-size: 18px;
+    border: 0;
+    height: 56px;
+    padding: 16px ;
+    border-radius: 5px;
+    background: #ffffff;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #005FAC;
+    color: beige;
+    border: 1px solid #005FAC; 
+}
+
+/* My failure section  */
+
+#failures-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 12%;
+}
+#failures-section .failure-description {
+    margin-top: 200px;
+    margin-left: 83px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;  
+}
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    color: #005FAC;
+}
+
+
+/* My plans section  */
+
+#my-plans-section h1 {
+    text-align: center;
+}
+#my-plans-section {
+    width: 100%;
+    height: 50vh;
+}
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    padding: 0px 90px;
+}
+#my-plans-section .my-plans h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(0, 0, 77);
+}
+#my-plans-section .my-plans p{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: #585858;
+}
+#icon-js-ecom img {
+    margin-left: 30px;
+}
+#icon-web-smoke img {
+    margin-left: 54px;
+}
+
+/* call now  section  */
+
+
+.call-now {
+    background:  linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.1) 100%) , url(images/watch.png);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 1140px;
+    height: 300px;
+    margin-left: 9%;
+    margin-top: 10%;
+}
+.call-now-text {
+    margin-left: 30%;
+}
+.call-now h1 {
+    padding-left: 54px;
+    padding-top: 59px;
+    color: #ffffff;
+}
+.call-now button {
+    margin-left: 100px;
+}
+
+footer {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(3, 0, 39);
+    margin-top: 80px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    padding-top: 30px;
+}
+.footer-container h2 {
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.footer-container p {
+    font-size: 18px;
+    line-height: 18px;
+}
+.future , .subscribe {
+    color: antiquewhite;
+    width: 40%;
+}
+.subscribe input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 18px 45px;
+    color: #3a3a3a;
+    font-size: medium;
+}
